@@ -1,7 +1,7 @@
-const timesTwo = require('./timesTwo').default;
+const timesTwo = require('./timesTwo');
 
 describe('timesTwo  function', () => {
     it('returns number times two(num)', () => {
-        expect(timesTwo(10)).toBe(20);
+        expect(timesTwo(10)).toEqual(20);
     });
 });
